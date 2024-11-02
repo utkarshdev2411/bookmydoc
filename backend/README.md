@@ -1,8 +1,6 @@
 # BookMyDoc
 ## A Comprehensive Appointment Booking System
 
-[![Build Status](https://travis-ci.org/yourusername/yourrepository.svg?branch=master)](https://travis-ci.org/yourusername/yourrepository)
-
 BookMyDoc is an open-source project developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack.
 
 ## Features
@@ -101,8 +99,6 @@ your preferred browser.
 127.0.0.1:4000
 ```
 
-## License
 
-Ravi Ranjan Kumar
 
 **Free Software, Hell Yeah!**
