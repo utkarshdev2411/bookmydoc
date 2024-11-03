@@ -272,23 +272,6 @@ exports.getAppointmentsByUserId = async (req, res) => {
 };
 
 
-exports.getAppointmentsByUserId = async (req, res) => {
-  try {
-    const appointments = await Appointment.find({ userId: req.body.userId });
-    res.status(200).send({
-      message: "Appointments fetched successfully",
-      success: true,
-      data: appointments,
-    });
-  } catch (error) {
-    console.log(error);
-    return res.status(500).send({
-      message: "Error while getting appointment details",
-      success: false,
-    });
-  }
-};
-
 
 
 
