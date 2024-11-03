@@ -21,6 +21,7 @@ const allowedOrigins = [
 //connecting to database
 connectDatabase();
 
+
 const userRouter = require('./routes/userRoutes');
 const adminRouter = require('./routes/adminRoutes');
 const doctorRouter = require('./routes/doctorRoutes');
