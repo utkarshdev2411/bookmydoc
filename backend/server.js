@@ -8,7 +8,7 @@ const cors = require('cors');
 
 
 const allowedOrigins = [
-    "https://book-my-doc-one.vercel.app",
+  "bookmydoc-b9wd4trnq-shikha-guptas-projects-5955c136.vercel.app",
     "http://localhost:3000",
   ];
   app.use(
